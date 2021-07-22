@@ -1,0 +1,141 @@
+/* CSS Document */
+hrml{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	line-height: 1.5;
+	background: White;
+}
+#social-icons{
+	background-color: black;
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#social-icons a{
+	color: white;
+	padding-left: 10px;
+	font-size: 20px;
+}
+.navbar:hover{
+	background-color: black;
+}
+.navbar-brand{
+	font-size:35px;
+}
+.nav-item{
+	font-size:25px;
+}
+@media (max-width: px) {
+
+  /* Pull out the header and footer */
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+}
+.intro{
+	color: white;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-image: url("../images/soft.jpg");
+	background-size: cover;
+}
+.intro h1{
+	font-size: 70px;
+}
+.intro p{
+	font-size: 20px;
+}
+.about-section{
+	height: 100vh;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.content-section{
+	background-color: aliceblue;
+}
+.card1{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.card1:hover{
+	color: white;
+	background-color: black;
+}
+.form-section{
+	padding-top:70px;
+	padding-bottom: 70px;
+}
+.contact-header{
+	padding-bottom: 70px;
+}
+.form-row{
+	padding-bottom: 20px;
+}
+.btn-form{
+	margin-top: 20px;
+}
+
+footer{
+	color: white;
+	background-color: black;
+}
+.footer-item-col2 {
+	font-size: 15px;
+	list-style: none;
+	padding-right: 50px;
+}
+.footer-item-col3 a{
+	padding-top: 45px;
+	padding-left: 30px;
+	padding-right: 30px;
+	list-style: none;
+	display: inline-block;
+	color:white;
+
+}
+
+.footer-item-col3 a:hover{
+	opacity:0.5;
+}
+@media only screen and (max-width: 600px){
+.footer-item-col3 a{
+	padding-top: 45px;
+	padding-left: 10px;
+	padding-right: 10px;
+	list-style: none;
+	display: inline-block;
+
+}
+}
+
+.line{
+	border-right:0.1px solid white;
+	height:150px;
+}
+@media only screen and (max-width: 600px){
+	.line{
+	border-bottom:0.1px solid white;
+	height:150px;
+}
+
+}
+
+.onscroll{
+	background-color: aqua;
+	padding-bottom: 20px;
+}
+@media only screen and (max-width: 600px){
+	body{
+		background: white;
+	}
+}
+.rounded{
+	border-radius: 200px;
+}
+ul li {
+	list-style:none;
+}
+	
